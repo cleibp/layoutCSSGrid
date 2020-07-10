@@ -1,0 +1,44 @@
+body {
+    display: grid;
+    font-family: Arial, sans-serif;
+    grid-gap: 1rem;
+    grid-template-areas: "header header header" "aside main main" "footer footer footer";
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto 100vh auto;
+}
+
+.my-header {
+    grid-area: header;
+    padding: 1.5rem;
+}
+
+.my-aside {
+    grid-area: aside;
+}
+
+.my-main {
+    grid-area: main;
+}
+
+.my-footer {
+    grid-area: footer;
+    padding: 1rem;
+}
+
+.my-header,
+.my-aside,
+.my-main,
+.my-footer {
+    background: #1A2980;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #26D0CE, #1A2980);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #FDFDFD;
+    /* Properties from here align the text in the center */
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
