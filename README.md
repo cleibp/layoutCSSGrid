@@ -25,10 +25,13 @@ Layout construído com a tecnologia de CSS Grid
 ```sh
 .
 ├── README.md
+├── index.html
+└── css
+    ├── style.css
 ```
 
 ## 👋🏽 DEMO
-[Pages](https://cleibp.github.io/layoutCSSGrid/) 
+[Publicação em Githube Pages](https://cleibp.github.io/layoutCSSGrid/) 
 
 ## Contatos
 
