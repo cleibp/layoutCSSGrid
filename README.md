@@ -31,7 +31,7 @@ Layout construído com a tecnologia de CSS Grid
 ```
 
 ## 👋🏽 DEMO
-[Publicação em Githube Pages](https://cleibp.github.io/layoutCSSGrid/) 
+[Publicação em Github Pages](https://cleibp.github.io/layoutCSSGrid/) 
 
 ## Contatos
 
