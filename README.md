@@ -27,7 +27,7 @@ Layout construído com a tecnologia de CSS Grid
 ├── README.md
 ├── index.html
 └── css
-    ├── style.css
+    └── style.css
 ```
 
 ## 👋🏽 DEMO
